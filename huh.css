@@ -1,0 +1,153 @@
+body
+{
+	font-family: sans-serif;
+	color: #000000;
+}
+
+table
+{
+	background: #FFF;
+	border-style: double;
+	border-color: #666;
+	font-size: small;
+}
+
+td
+{
+	border-width: 1px;
+	border-style: double;
+	border-color: #666;
+}
+
+a:visited
+{
+	text-decoration: none;
+	color: #060;
+}
+
+a:link
+{
+	text-decoration: none;
+	color: #060;
+}
+
+a:hover
+{
+	text-decoration: underline;
+	color: black;
+}
+
+#errmsg {
+	font-weight: bold;
+	color: #F00;
+}
+
+#tt {
+	position: absolute;
+	left: 40%;
+	top: 300px;
+	visibility: hidden;
+	width: 20%;
+	padding: 5px;
+	border: 1px solid #666;
+	background-color: #DDD;
+	z-index: 99;
+	text-align: center;
+}
+
+.radio {
+	vertical-align: bottom;
+}
+
+fieldset {
+	position: relative;
+	float: left;
+	clear: both;
+	width: 100%;
+	margin: 0 0 -1em 0;
+	padding: 0 0 1em 0;
+	border-style: none;
+	border-top: 1px solid #666;
+	background-color: #CCC;
+}
+
+label {
+	display: block;
+	float: left;
+	width: 10em;
+	margin-right: 1em;
+	padding-bottom: 5px;
+}
+
+legend {
+	padding: 0;
+	color: #000;
+	font-weight: bold;
+	position: relative;
+	left: -7px;
+	top: -0.75em;
+}
+
+legend span {
+	position: absolute;
+	left: 0.74em;
+	top: 0;
+	margin-top: 0.5em;
+	font-size: 135%;
+}
+
+fieldset ol {
+	padding: 3.5em 1em 0 1em;
+	list-style: none;
+}
+
+fieldset li {
+	float: left;
+	clear: left;
+	width: 100%;
+	padding-bottom: 1em;
+}
+
+fieldset.submit {
+	float: none;
+	width: auto;
+	border: 0 none #FFF;
+	padding-top: 1.5em;
+	padding-left: 12em;
+	background-color: #FFF;
+}
+
+#menu ul {
+	font: bold 13px arial;
+	padding-left: 0;
+	margin-left: 0;
+	height: 20px
+	background-color: #FFF;
+}
+
+#menu ul li {
+	list-style: none;
+	display: inline;
+}
+
+#menu ul li a {
+	float: center;
+	color: #060;
+	padding: 2px 20px;
+	margin: 0;
+	text-decoration: none;
+	background-color: #FFF;
+	border: 1px ridge #CCC;
+}
+
+#menu ul li a:hover {
+	color: black;
+	paddin: 2px 20px;
+	margin: 0;
+	background-color: #CCC;
+	border: 1px ridge #CCC;
+}
+
+#mewplayer {
+	z-index: 1;
+}
