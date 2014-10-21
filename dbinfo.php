@@ -3,7 +3,7 @@
 // Config
 $sitename  = "MewTube";			// This be the site name
 $mtv       = "4.2.0";			// don't change this part
-$motd      = "Automagic robot complete, send me your show subscription requests. Email sysop@cvncpu.net for details.";	// what could this be?
+$motd      = "Message of the Day";	// what could this be?
 $pidFile = "/tmp/mkflv.pid";		// PID File for the encoder
 $wwwDir = $_SERVER['DOCUMENT_ROOT'];	// WWW Root, change this if your install does not support $_SERVER vars
 $contentDir = "/srv/svs/";		// Content Root
@@ -16,9 +16,9 @@ $usc = array("|", "'", "/", "!", "[", "]", "(", ")", "\\", "`");	// Unsafe chara
 $useableExt = array(".ogm", ".avi", ".mpg", ".mkv", ".mpeg");		// Extensions you want to encode (this should match your ffmpeg install
 $sqlhost = "localhost";			// MySQL Hostname
 $sqluser = "mewtube";			// MySQL User
-$sqlpass = "MFxPPa8s8GjmBSHp";		// MySQL Pass
+$sqlpass = "";				// MySQL Pass
 $sqldb   = "mewtube";			// MySQL DB
-$psk = "633582aaa91159d0c6450daf165088cd";			// Salt for passwords
+$psk = "";				// Pepper for passwords
 $bgs = array("stone.jpg", "faces.jpg", "panda-tile.jpg", "vectar.png", "wallpape.png", "squiggle.gif", "dolphinz.jpg", "wolf.jpg", "gross.png", "bandana.jpg", "bamboo.png", "dollaz.jpg", "hubble.jpg", "orange.jpg", "yarn.jpg", "Undercutbg.jpg", "catbg.jpg", "mo-snuffles.jpg", "wolf-trip.jpg");
 
 // BEWARE SHITTY CODE BELOW
